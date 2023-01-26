@@ -1,17 +1,17 @@
 {
-  "name": "use-on-click-outside",
+  "name": "use-outside-click",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/use-on-click-outside.cjs",
-  "module": "./dist/use-on-click-outside.js",
+  "main": "./dist/use-outside-click.cjs",
+  "module": "./dist/use-outside-click.js",
   "exports": {
     ".": {
-      "require": "./dist/use-on-click-outside.cjs",
-      "import": "./dist/use-on-click-outside.js"
+      "require": "./dist/use-outside-click.cjs",
+      "import": "./dist/use-outside-click.js"
     }
   },
   "scripts": {

@@ -5,8 +5,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      name: "useClickOutside",
-      fileName: "use-on-click-outside",
+      name: "useOutsideClick",
+      fileName: "use-outside-click",
       formats: ["cjs", "es"],
     },
     rollupOptions: {

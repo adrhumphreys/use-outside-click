@@ -1,0 +1,32 @@
+{
+  "name": "use-on-click-outside",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/use-on-click-outside.cjs",
+  "module": "./dist/use-on-click-outside.js",
+  "exports": {
+    ".": {
+      "require": "./dist/use-on-click-outside.cjs",
+      "import": "./dist/use-on-click-outside.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "dts-bundle-generator": "^7.1.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}

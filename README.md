@@ -1,4 +1,4 @@
-## useClickOutside
+## useOutsideClick
 
 Derived from the internals of https://github.dev/tailwindlabs/headlessui
 
